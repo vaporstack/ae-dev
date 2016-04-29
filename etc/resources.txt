@@ -32,7 +32,7 @@ THE BIG 4:
 	The differences between what is accessible via expression and script are nuanced and ever changing, this is all expression-specific material.
 	https://helpx.adobe.com/after-effects/using/expression-basics.html
 
-•	ExtendScript Toolkit sucks.  Use it as infrequently as possible.  Enable autoreload of changed documents, set a monospaced font for fucks sake, use a different code editor, and save often.
+•	ExtendScript Toolkit sucks.  Use it as infrequently as possible.  Enable autoreload of changed documents, set a monospaced font, use a different code editor, and save often.
 	https://forums.adobe.com/thread/1308816?start=0&tstart=0
 
 •	Javascript Module Patterns
