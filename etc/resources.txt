@@ -1,0 +1,51 @@
+After Effects Developer Resources.  
+
+Updated 4/29/16
+
+(tools of choice by vaporstack, questions comments welcome)
+	andrew@vaporstack.org
+	http://andrewmacfarlane.com
+	http://vaporstack.org
+
+THE BIG 4:
+
+•	After Effects CS6 Scripting Guide
+	https://blogs.adobe.com/aftereffects/files/2012/06/After-Effects-CS6-Scripting-Guide.pdf?file=2012/06/After-Effects-CS6-Scripting-Guide.pdf
+	Obviously the most important document.  Covers all available methods and objects.
+	A navigable HTML version would be nice (adobe? check out Nuke's documentation)
+
+•	JavaScript Tools Guide
+	https://a248.e.akamai.net/f/1953/8974/2h/wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/products/indesign/pdfs/JavaScriptToolsGuide_CS5.pdf
+	Scripting guide for the entire adobe suit.  This covers things not After Effects specific, like the File and Folder objects. ScriptUI panels, etc etc.
+
+•	JavaScript Pocket Reference
+	http://www.amazon.com/JavaScript-Pocket-Reference-OReilly/dp/1449316859
+	Light reading for the subway (ha).  Get into nitty gritty details of the language.
+
+•	JavaScript: The Good Parts
+	http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742
+	Especially useful for AE people.  Figure out why 20 + 20 sometimes == 2020.
+
+(Supplementary)
+
+•	After Effects Expression Basics
+	The differences between what is accessible via expression and script are nuanced and ever changing, this is all expression-specific material.
+	https://helpx.adobe.com/after-effects/using/expression-basics.html
+
+•	ExtendScript Toolkit sucks.  Use it as infrequently as possible.  Enable autoreload of changed documents, set a monospaced font for fucks sake, use a different code editor, and save often.
+	https://forums.adobe.com/thread/1308816?start=0&tstart=0
+
+•	Javascript Module Patterns
+	On designing reusable code.
+	http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html
+
+•	JSLint
+	There's a whole chapter about it in JS: the good parts.  There's a reason.  The linter of choice seems to change but node.js has the meanest one I've found so far.
+	(edit) the community has apparently switched over to JSHint.
+
+•	ScriptUI for dummies
+	because when it comes to ScriptUI, we're all dummies
+	http://www.kahrel.plus.com/indesign/scriptui.html
+
+•	git / Mercurial
+	Version control.  Learn it, use it, love it.
